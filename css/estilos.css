@@ -26,6 +26,17 @@ body {
 	flex-wrap: wrap;
 }
 
+.seccion-principal {
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
 header {
 	width: 100%;
 	padding: 15px;
@@ -53,6 +64,34 @@ header {
 	color: #fff;
 	letter-spacing: 5px;
 	font-weight: 600
+}
+
+aside {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	background: #15853C;
+}
+
+aside h2 {
+	text-align: center;
+	color: #fff;
+	letter-spacing: 5px;
+	padding: 10px;
+	background: #105427;
+}
+
+aside a {
+	padding: 20px;
+	color: #fff;
+}
+
+aside a:hover {
+	background: #1FAD50;
 }
 
 footer {

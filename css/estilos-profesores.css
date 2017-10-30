@@ -1,0 +1,83 @@
+.encabezado-pagina {
+	width: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.encabezado-pagina button {
+	padding: 10px;
+	border-radius: 5px;
+	width: 75%;
+	background: #D35813;
+	border: none;
+	letter-spacing: 5px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.encabezado-pagina button:hover {
+	background: #FA6C1B;
+	cursor: pointer;
+}
+
+.profesores {
+	width: 85%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.profesores h2 {
+	letter-spacing: 7px;
+	margin: 20px;
+}
+
+table {
+	margin: 30px;
+	width: 100%;
+}
+
+.codigo {
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+}
+
+.nombre {
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+}
+
+.apellidos {
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+}
+
+.acciones {
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+}
+
+.acciones a {
+	color: #105427;
+}
