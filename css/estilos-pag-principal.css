@@ -1,0 +1,78 @@
+header {
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+header span {
+	color: #fff;
+	font-size: 25px;
+}
+
+i {
+	margin-right: 10px;
+}
+
+.seccion-principal {
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+aside {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	background: #15853C;
+}
+
+aside h2 {
+	text-align: center;
+	color: #fff;
+	letter-spacing: 5px;
+	padding: 10px;
+	background: #105427;
+}
+
+aside a {
+	padding: 20px;
+	color: #fff;
+}
+
+aside a:hover {
+	background: #1FAD50;
+}
+
+.introduccion {
+	width: 50%;
+	padding: 40px;
+}
+
+.introduccion h3 {
+	text-align: center;
+}
+
+.introduccion p {
+	margin: 10px;
+}
+
+.imagen-inicio {
+	width: 30%;
+}
+
+.imagen-inicio img {
+	padding: 70px;
+	width: 500px;
+}
