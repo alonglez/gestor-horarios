@@ -25,6 +25,10 @@
 	font-weight: 600;
 }
 
+button a {
+	color: #fff;
+}
+
 .encabezado-pagina button:hover {
 	background: #FA6C1B;
 	cursor: pointer;
